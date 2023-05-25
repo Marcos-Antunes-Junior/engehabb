@@ -1,5 +1,5 @@
 const counters = document.querySelectorAll(".count");
-const speed = 100;
+const speed = 110;
 
 var isInViewport = function(elem) {
   var distance = elem.getBoundingClientRect();
@@ -24,7 +24,7 @@ window.addEventListener('scroll', function(event) {
         const increment = Math.trunc(target / speed);
         if (count < target) {
           counter.innerText = count + increment;
-          setTimeout(updateCount, 40);
+          setTimeout(updateCount, 60);
         } else {
           count.innerText = target;
         }
