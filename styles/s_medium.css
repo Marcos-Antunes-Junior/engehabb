@@ -1,0 +1,334 @@
+@media only screen and (min-width: 35rem) {
+    #companhia {
+        display: flex;
+        align-items: center;
+    
+    }
+
+    #subcontainer4-1 h3{
+        color: #36333C;
+      
+        font-size: 1.8rem;
+       
+    }
+
+    #subcontainer4-1 hr{
+        background-color: #36333C;
+        width: 40%;
+        height: 1px;
+    
+    }
+
+    #audivida{
+        margin-left: -6%;
+    }
+
+    footer{
+    margin-top: 10%;
+    }
+
+    #footer1{
+        font-size: 1.2rem;
+    }
+
+    #subfooter1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 35px;
+    }
+    
+    #subfooter1 p{
+        width: 80%;
+        margin-left: 10px;
+    }
+    
+    #subfooter2 p{
+        width: 80%;
+        margin-left: 10px;
+    }
+    
+    #subfooter2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 35px;
+    }
+    
+    #subfooter1 img{
+        width: 6%;
+    }
+    
+    #subfooter2 img{
+        width: 6%;
+    }
+
+    #footer1 button{
+        width: 35%;
+        font-size: 1.5rem;
+    }
+
+    #logo2{
+        width: 35%;
+    }
+
+    #footer2 ul li a{
+    font-size: 1.4rem;
+    }
+
+    #footer3{
+        font-size: 1rem;
+        border: none;
+    }
+
+    #hero h1{
+        position: relative;
+        color: #fff;
+        font-family: 'Sora', sans-serif;
+        font-size: 2.5rem;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: left;
+        margin-top: 10%;
+        margin-left: 20%;
+        font-weight: 600;
+    
+    }
+    
+    #hero button{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 15%;
+        height: 15%;
+        font-size: 1.2rem;
+        color: #fff;
+        background-color: #FE4F00;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+        text-align: center;
+        position: relative;
+        top: 73%;
+        margin-left: 8%;
+    
+    }
+
+    /* ------ TURN-KEY PAGE ------ */
+
+#turnkey-content{
+    width: 80%;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+#turnkey-content h2{
+    
+    font-size: 1.6rem;
+}
+
+#turnkey-content p{
+margin-top: 5%;
+font-size: 1.3rem;
+}
+
+#turnkey-content button{
+    color: #fff;
+    background-color: #FE4F00;
+    border: none;
+    width: 30%;
+    margin-top: 5%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: .9rem;
+}
+
+
+/* ------ CONTATO PAGE ------ */
+
+#contato-content{
+
+    margin-top: 12%;
+
+}
+
+#contato-subcontent1{
+    margin: 20px;
+}
+
+#contato-subcontent1 h2{
+    color: #2d2d2e;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#contato-subcontent1 p{
+    font-size: 1.4rem;
+    margin-top: 2%;
+}
+
+#contato-subcontent2{
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+
+/* ----- SOBRE NÓS PAGE ------ */
+
+
+
+#eng{
+    font-size: 1.9rem;
+    color: #2d2d2e;  
+}
+
+#transformando{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+#text p{
+    font-size: 1.3rem;
+    margin-top: 4%;
+}
+
+#container1 p{
+    font-size: 1.5rem;
+
+}
+
+#turnkey-hero p{
+
+    font-size: 1.3rem;
+
+    bottom: 19%;
+
+    
+}
+
+#turnkey-hero h3{
+
+    font-size: 3rem;
+
+    bottom: 12%;
+}
+
+#turnkey-hero button{
+
+    width: 25%;
+
+    font-size: 1.5rem;
+
+}
+
+#text2{
+    margin: 20px;
+    margin-top: 5%;
+    font-size: 1.3rem;
+   }
+
+   /* --- CASES PAGE --- */
+   #cases-grid .cases-content h2{
+    font-size: 3rem;
+
+}
+
+
+#slogan h1{
+
+    font-size: 1.5rem;
+
+}
+
+#slogan button{
+    margin: auto;
+    width: 40%;
+    height: 50px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #FE4F00;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#quemsomos-menu h2{
+    font-size: 3rem;
+}
+
+#turnkey-menu h2{
+   
+    font-size: 1.8rem;
+
+
+}
+
+#cases-menu h2{
+    font-size: 1.8rem;
+}
+
+
+#box{
+    width: 60px;
+    height: 70px;
+    background-color: #FE4F00;
+    border-top-right-radius: 10px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#new-arrow{
+
+    font-size: 1.7rem;
+
+
+}
+
+#container2 h2{
+    font-size: 1.7rem;
+    margin-left: 5%;
+    text-align: left;
+    }
+    
+    #container2 p{
+        font-size: 1.7rem;
+        margin-left: 5%;
+        text-align: left;
+    }
+
+#subcontainer2-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+    width: 90%;
+    margin: auto;
+    column-gap: 120px;
+    margin-top: 10%;
+
+}
+
+#subcontainer2-1 img{
+    width: 18%;
+}
+
+#subcontainer2-1 h3{
+    margin-top: -2%;
+    font-size: 2rem;
+}
+
+
+
+#subcontainer2-1 ul li{
+    font-size: 1.5rem;
+    margin-left: 8%;
+    
+}
+
+#turn-home-large{
+    display: none;
+}
+    
+
+
+}

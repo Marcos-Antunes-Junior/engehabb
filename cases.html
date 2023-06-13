@@ -25,7 +25,7 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Engehabb Engenharia | Home</title>
+    <title>Engehabb Engenharia | Cases</title>
 </head>
 
 <body>
@@ -33,6 +33,7 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXZL7ZJ"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    
     <header>
             <div class="navbar">
                 <img class="logo" src="images/LOGOTIPO1.png" alt="logo">
@@ -59,102 +60,25 @@
     </header>
 
     <main>
-    <div id="hero-home">
-    <img src="images/headerimg.png" alt="hero">
-    </div>
-    <div id="menu">
-    <div id="quemsomos-menu">
-    <h2>Sobre nós</h2>
-    <img  src="images/quemsomos.png" alt="quem somos"></div>
-    <div id="turnkey-menu">
-    <h2>Turn-Key</h2>
-    <img  src="images/turnkey.png" alt="turn key"></div>
-    <div id="cases-menu">
-    <h2>Cases</h2>
-    <img  src="images/CASES.png" alt="cases"></div>
-    </div>
-    <div id="box">
-    <span id="new-arrow">V</span>
-    </div>
-
-    <div id="container2">
-        <br>
-        <h2>Oferecemos soluções personalizadas para atender às demandas de diversos sistemas</h2>
-        <p>Setores que atuamos:</p>
-
-        <div id="subcontainer2-1">
-            <div class="icones"><img src="./images/COMERCIAL.svg" alt="comercial ícone">
-                <h3>Comercial</h3>
-                <ul>
-                    <li>Lojas</li>
-                    <li>Restaurantes</li>
-                    <li>Comércios em Geral</li>
-                </ul>
-            </div>
-            <div class="icones"><img src="./images/CORPORATIVO.svg" alt="corporativo ícone">
-                <h3>Corporativo</h3>
-                <ul>
-                    <li>Escritórios</li>
-                    <li>Workplaces</li>
-                    <li>Coworking</li>
-                </ul>
-            </div>
-            <div class="icones"><img src="./images/INDUSTRIAL.svg" alt="industrial ícone">
-                <h3>Industrial</h3>
-                <ul>
-                    <li>Indústria</li>
-                    <li>Logística</li>
-                    <li>Centro de Distribuição</li>
-                </ul>
-            </div>
-            <div class="icones"><img src="./images/HEALTHCARE.svg" alt="healthcare ícone">
-                <h3>HealthCare</h3>
-                <ul>
-                    <li>Hospitais</li>
-                    <li>Clínicas</li>
-                    <li>Laboratórios</li>
-                </ul>
-            </div>
-            <div class="icones"><img src="./images/HOTELARIA.svg" alt="hotelaria ícone">
-                <h3>Hotelaria</h3>
-                <ul>
-                    <li>Hotéis</li>
-                    <li>Resorts</li>
-                    <li>Pousadas</li>
-                </ul>
-            </div>
-            <div class="icones"><img src="./images/EDUCACIONAL.svg" alt="educacional ícone">
-                <h3>Educacional</h3>
-                <ul>
-                    <li>Creches</li>
-                    <li>Escolas</li>
-                    <li>Universidades</li>
-                </ul>
-            </div>
+        <div id="hero">
+            <img id="hero-image" src="/images/IMG1.png" alt="hero image">
+            <h1>Cases</h1>
+            <button id="back3">&#129144; Voltar</button>
         </div>
-    </div>
-    <div id="turn-home">
-    <img src="images/turn_home.png" alt="turn-key"> 
-        <div id="slogan">
-            <h1>Soluções integradas para gerenciar todos os aspectos da sua obra.</h1>
-            <button id="home-button">Turn-Key &#10132;</button>
-             </div>
-    </div>
-
-    <div id="turn-home-large">
-    <div id="part1">
-    <h2>Turn-Key</h2> 
-    <img src="images/eng_icon.png" alt="engehabb">   
-    </div>
-    <div id="part2">
-        <img src="images/turn_home.png" alt="turn-key"> 
-        <div id="slogan2">
-            <h1>Soluções integradas para gerenciar todos os aspectos da sua obra.</h1>
-            <button id="home-button2">Saiba mais &#10132;</button>
-             </div>  
-    </div>
-    </div>
-
+        <div id="cases-grid">
+            <div id="phonak" class="cases-content">
+            <img src="images/phonak2.jpg" alt="phonak sede">
+            <h2>Phonak - Sede</h2>
+            </div>
+            <div id="argosy" class="cases-content">
+                <img src="images/argosy1.jpg" alt="argosy">
+                <h2>Argosy</h2>
+            </div>
+            <div id="reboucas" class="cases-content">
+                <img src="images/reboucas2.jpg" alt="rebouças">
+            <h2>Rebouças</h2>
+            </div>
+            </div>
         <div id="container4">
             <div id="subcontainer4-1">
                 <div id="companhia">
@@ -190,6 +114,7 @@
 
             </div>
         </div>
+
     </main>
 
     <footer>
@@ -229,25 +154,24 @@
 <script src="scripts/toggle.js"></script>
 <script src="scripts/year1.js"></script>
 <script>
-document.querySelector("#quemsomos-menu").onclick = function () {
-    window.location.href = "sobre.html";
-};
-
-document.querySelector("#turnkey-menu").onclick = function () {
+document.querySelector("#back3").onclick = function () {
     window.location.href = "turn.html";
 };
 
-document.querySelector("#cases-menu").onclick = function () {
-    window.location.href = "cases.html";
+document.querySelector("#phonak").onclick = function () {
+    window.location.href = "phonak.html";
 };
 
-document.querySelector("#home-button").onclick = function () {
-    window.location.href = "turn.html";
+document.querySelector("#argosy").onclick = function () {
+    window.location.href = "argosy.html";
 };
 
-document.querySelector("#home-button2").onclick = function () {
-    window.location.href = "turn.html";
+document.querySelector("#reboucas").onclick = function () {
+    window.location.href = "reboucas.html";
 };
+
+
+
 </script>
 </body>
 
