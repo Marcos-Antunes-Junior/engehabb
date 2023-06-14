@@ -490,10 +490,10 @@ font-size: 2rem;
 
 @keyframes MoveUpDown {
     0%, 100% {
-      bottom: -20px;
+      bottom: -25px;
     }
     50% {
-      bottom: -10px;
+      bottom: -15px;
     }
   }
 
