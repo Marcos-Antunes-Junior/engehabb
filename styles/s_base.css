@@ -124,7 +124,7 @@ grid-template-columns: 1fr;
 
 
 #subcontainer4-2 img{
-  width: 50%;
+  width: 45%;
 
 }
 
@@ -150,6 +150,7 @@ grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
     margin: 20px;
+    margin-left: -20px;
 }
 
 #subfooter1 p{
@@ -167,14 +168,15 @@ grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
     margin: 20px;
+    
 }
 
 #subfooter1 img{
-    width: 10%;
+    width: 6%;
 }
 
 #subfooter2 img{
-    width: 10%;
+    width: 6%;
 }
 
 #footer1 button{
