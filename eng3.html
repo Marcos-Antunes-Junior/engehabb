@@ -31,23 +31,16 @@
         <img id="image-logo" src="./images/lLOGOTIPO.png" alt="engehabb logo">
         <img id="image-back" src="./images/headerimg.png" alt="engehabb background imagem">
         <div id="header-button">
-            <button class="button" onclick="scrolldiv()">SOLICITAR CONTATO</button>
+            <button class="button1" >SOLICITAR CONTATO</button>
         </div>
         <div id="slogan">
             <h1>Empresa especializada em projetos corporativos, comerciais e industriais.</h1>
             <p>Conheça a equipe que já transformou mais de 100 empresas em espaços que inspiram, motivam e emocionam.
             </p>
         </div>
-        <form action="https://api.sheetmonkey.io/form/nXg78LuG5NX7BsWizywW81" method="post">
-            <fieldset>
-                <label class="top">Nome Completo*<input type="text" name="fname" id="nomecompleto" required></label>
-                <label class="top">Telefone/Whatsapp*<input type="tel" name="phone" id="telefone" placeholder="11 99999-9999"
-                        required></label>
-                <label class="top">Email*<input type="email" name="email" id="endEmail" placeholder="exemplo@exemplo.com"
-                        required></label>
-                <input type="submit" value="SOLICITAR CONTATO" class="submitBtn" onclick="myFunction()">
-            </fieldset>
-        </form>
+        <div id="button-hero">
+        <button class="button2" >SOLICITAR CONTATO</button>
+        </div>
     </header>
     <main>
         <div id="container1">
@@ -136,7 +129,7 @@
                         objetivo é superar as expectativas, com entregas acima do esperado e a nossa história comprova a
                         excelência dos resultados no mercado da construção civil.</p>
                     </div>
-                    <button class="button" onclick="scrolldiv()">SOLICITAR CONTATO</button>
+                    <button class="button3" >SOLICITAR CONTATO</button>
                 </div>
             </div>
         </div>
@@ -174,7 +167,7 @@
                 </div>
 
             </div>
-            <button class="button" onclick="scrolldiv()">SOLICITAR CONTATO</button>
+            <button class="button4" >SOLICITAR CONTATO</button>
         </div>
     </main>
 <footer>
@@ -186,6 +179,23 @@
 </script>
 <script src="./scripts/year.js"></script>
 <script src="./scripts/main.js"></script>
+<script>
+document.querySelector('.button1').onclick = function () {
+    window.location.href="https://api.whatsapp.com/send?phone=5511991528828";
+}
+
+document.querySelector('.button2').onclick = function () {
+    window.location.href="https://api.whatsapp.com/send?phone=5511991528828";
+}
+
+document.querySelector('.button3').onclick = function () {
+    window.location.href="https://api.whatsapp.com/send?phone=5511991528828";
+}
+
+document.querySelector('.button4').onclick = function () {
+    window.location.href="https://api.whatsapp.com/send?phone=5511991528828";
+}
+</script>
 </body>
 
 </html>

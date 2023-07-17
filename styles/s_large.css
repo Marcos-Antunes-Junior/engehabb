@@ -6,6 +6,13 @@
         display: none;
     }
 
+    header{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 3;
+    }
+
     .logo {
         width: 15%;
         }
@@ -33,6 +40,7 @@
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+    margin-left: 15%;
    }
 
    ul li{
@@ -48,6 +56,10 @@
     display: flex;
     align-items: center;
 
+}
+
+#new-arrow{
+    font-size: 2.3rem;
 }
 
 #subcontainer4-1 h3{
@@ -109,6 +121,8 @@
         padding-bottom: 0px;
     }
 
+   
+
     #subfooter1 img{
         width: 9%;
     }
@@ -118,12 +132,13 @@
     }
 
     #subfooter1 p{
-        width: 63%;
+        width: 100%;
         margin-left: 10px;
     }
     
     #subfooter2 p{
-        width: 50%;
+        width: 100%;
+       
     }
 
     #footer1 button{
@@ -189,7 +204,7 @@
         grid-column: 1/2;
         grid-row: 1/2;
         text-align: left;
-        margin-top: 15%;
+        margin-top: 11%;
         margin-left: 20%;
         font-weight: 600;
     
@@ -208,27 +223,40 @@
         border-radius: 4px;
         text-align: center;
         position: relative;
-        top: 80%;
+        top: 60%;
         margin-left: 8%;
     
     }
+
+    #hero-image{
+        width: 100%;
+        height: 80%;
+       
+    }
+
+
+    
+
 
     
     /* ------ TURN-KEY PAGE ------ */
 
 #turnkey-content{
     width: 60%;
-    margin-top: 10%;
+    margin-top: 5%;
+    
 }
 
 #turnkey-content h2{
     
     font-size: 1.8rem;
+    text-align: left;
 }
 
 #turnkey-content p{
 margin-top: 3%;
 font-size: 1.3rem;
+text-align: left;
 }
 
 #turnkey-content button{
@@ -241,6 +269,7 @@ font-size: 1.3rem;
     cursor: pointer;
     border-radius: 5px;
     font-size: 1.3rem;
+    margin-left: 0;
 }
 
 
@@ -262,12 +291,14 @@ font-size: 1.3rem;
     color: #2d2d2e;
     font-weight: 700;
     font-size: 2.5rem;
+    text-align: left;
 }
 
 #contato-subcontent1 p{
     font-size: 1.6rem;
     margin-top: 4%;
     width: 60%;
+    text-align: left;
 }
 
 #contato-subcontent2{
@@ -279,7 +310,7 @@ font-size: 1.3rem;
 #sobre-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 5%;
+    margin-top: -2%;
 }
 
 #text{
@@ -288,6 +319,7 @@ font-size: 1.3rem;
     margin-top: 10%;
     margin-left: 10%;
     width: 110%;
+    text-align: left;
 }
 
 #sobre-subcontent1{
@@ -339,13 +371,17 @@ grid-template-columns: 1fr 1fr;
     grid-row: 1/2;
 }
 
+#turnkey-hero h3{
+   margin-left: 31%;
+}
+
 #text2{
     margin-left: 10%;
-    
+    text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 85%;
+    width: 78%;
    }
 
    #turnkey-hero button{
@@ -357,7 +393,7 @@ grid-template-columns: 1fr 1fr;
 #turnkey-hero p{
 
     font-size: 1.3rem;
-
+    margin-left: 42%;
     bottom: 10%;
 
     
@@ -394,7 +430,9 @@ grid-template-columns: 1fr 1fr;
 }
 
 #cases-grid .cases-content h2{
-font-size: 2rem;
+font-size: 1.3rem;
+margin-left: 15%;
+top: 86%;
 
 }
 
@@ -442,6 +480,8 @@ font-size: 2rem;
 
 #menu{
     width: 65%;
+    grid-gap: 30px;
+
 }
 
 #quemsomos-menu h2{
@@ -460,22 +500,24 @@ font-size: 2rem;
 }
 
 #container2 h2{
-    width: 70%;
+    width: 75%;
     font-size: 2.6rem;
     color: #36333C;
+    margin: 0 auto;
 }
 
 #container2 p{
     font-size: 2rem;
     color: #36333C;
+    padding-left: 8%;
 }
 
 #subcontainer2-1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 85%;
+    width: 95%;
     margin: 0 auto;
-    margin-left: 11%;
+    margin-left: 9%;
     column-gap: 35px;
     color: #36333C;
     margin-top: 4%;
